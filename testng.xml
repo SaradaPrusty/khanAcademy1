@@ -1,0 +1,13 @@
+<?xmlversion="1.0"encoding="UTF-8"?>
+<!DOCTYPEsuiteSYSTEM"https://testng.org/testng-1.0.dtd">
+<suitename="Suite">
+<listeners>
+       <listenerclass-name="com.appium.resource.ExtentReporterNG"/>
+   </listeners>
+ <testthread-count="5"name="TestNG">
+   <classes>
+     <classname="com.appium.testcase.TestRunnerkhanacademy"/>
+     <classname="maven.appium.casestudy.AppTest"/>
+   </classes>
+ </test><!-- TestNG -->
+</suite><!-- Suite -->
